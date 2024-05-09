@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value=".:: Im&#xf3;vel do Propriet&#xe1;rio."/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[624, 399]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[624, 399]"/>
+    </Property>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel13" max="32767" attributes="0"/>
+                  <Component id="jLabel14" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="iMsg" min="-2" pref="291" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="iObs" min="-2" pref="291" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel13" min="-2" pref="18" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="iMsg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="iObs" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="[ Informa&#xe7;&#xf5;es do Im&#xf3;vel]">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iEndereco" min="-2" pref="240" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="jbtBuscaCep" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iNumero" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iCplto" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iBairro" min="-2" pref="240" max="-2" attributes="0"/>
+                          <EmptySpace pref="24" max="32767" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iCidade" min="-2" pref="240" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iCodCidade" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iEstado" min="-2" pref="42" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iCep" min="-2" pref="78" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iRgimv" min="-2" pref="62" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iTipoImv" min="-2" pref="135" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iUrbRural" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iSituacao" min="-2" pref="119" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="iMatriculas" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="mtDel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="iReter" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iRgimv" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iTipoImv" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iUrbRural" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iSituacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="iNumero" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtBuscaCep" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="iEndereco" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="iCplto" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="iBairro" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="iCidade" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="iCodCidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="iEstado" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="2" groupAlignment="3" attributes="0">
+                                      <Component id="iCep" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="iMatriculas" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="iReter" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="mtDel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="RgImv:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iRgimv">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tipo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="iTipoImv">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Residencial"/>
+                <StringItem index="1" value="N&#xe3;o Residencial"/>
+                <StringItem index="2" value="Comercial"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="iUrbRural">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Urbano"/>
+                <StringItem index="1" value="Rural"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Situa&#xe7;&#xe3;o:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="iSituacao">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="A&#xe7;&#xe3;o"/>
+                <StringItem index="1" value="Pendencia"/>
+                <StringItem index="2" value="Reservado"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Endere&#xe7;o::"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iEndereco">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(60);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtBuscaCep">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Figuras/find.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtBuscaCepActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Num.:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iNumero">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(10);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cplto:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iCplto">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(15);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bairro:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iBairro">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(25);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cidade:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iCidade">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(25);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cod.Municipio:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="iCodCidade">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="94">
+                <StringItem index="0" value="5801 - ANGRA DOS REIS&#x9;"/>
+                <StringItem index="1" value="2919 - APERIBE&#x9;"/>
+                <StringItem index="2" value="5803 - ARARUAMA&#x9;"/>
+                <StringItem index="3" value="2925 - AREAL&#x9;"/>
+                <StringItem index="4" value="0770 - ARMACAO DE BUZIOS&#x9;"/>
+                <StringItem index="5" value="5927 - ARRAIAL DO CABO&#x9;"/>
+                <StringItem index="6" value="5805 - BARRA DO PIRAI&#x9;"/>
+                <StringItem index="7" value="5807 - BARRA MANSA&#x9;"/>
+                <StringItem index="8" value="2909 - BELFORD ROXO&#x9;"/>
+                <StringItem index="9" value="5809 - BOM JARDIM&#x9;"/>
+                <StringItem index="10" value="5811 - BOM JESUS DO ITABAPOANA&#x9;"/>
+                <StringItem index="11" value="5813 - CABO FRIO&#x9;"/>
+                <StringItem index="12" value="5815 - CACHOEIRAS DE MACACU&#x9;"/>
+                <StringItem index="13" value="5817 - CAMBUCI&#x9;"/>
+                <StringItem index="14" value="5819 - CAMPOS DOS GOYTACAZES&#x9;"/>
+                <StringItem index="15" value="5821 - CANTAGALO&#x9;"/>
+                <StringItem index="16" value="0772 - CARAPEBUS&#x9;"/>
+                <StringItem index="17" value="2915 - CARDOSO MOREIRA&#x9;"/>
+                <StringItem index="18" value="5823 - CARMO&#x9;"/>
+                <StringItem index="19" value="5825 - CASIMIRO DE ABREU&#x9;"/>
+                <StringItem index="20" value="2927 - COMENDADOR LEVY GASPARIAN&#x9;"/>
+                <StringItem index="21" value="5827 - CONCEICAO DE MACABU&#x9;"/>
+                <StringItem index="22" value="5829 - CORDEIRO&#x9;"/>
+                <StringItem index="23" value="5831 - DUAS BARRAS&#x9;"/>
+                <StringItem index="24" value="5833 - DUQUE DE CAXIAS&#x9;"/>
+                <StringItem index="25" value="5835 - ENGENHEIRO PAULO DE FRONTIN&#x9;"/>
+                <StringItem index="26" value="2907 - GUAPIMIRIM&#x9;"/>
+                <StringItem index="27" value="0774 - IGUABA GRANDE&#x9;"/>
+                <StringItem index="28" value="5837 - ITABORAI&#x9;"/>
+                <StringItem index="29" value="5839 - ITAGUAI&#x9;"/>
+                <StringItem index="30" value="5929 - ITALVA&#x9;"/>
+                <StringItem index="31" value="5841 - ITAOCARA&#x9;"/>
+                <StringItem index="32" value="5843 - ITAPERUNA&#x9;"/>
+                <StringItem index="33" value="6003 - ITATIAIA&#x9;"/>
+                <StringItem index="34" value="2913 - JAPERI&#x9;"/>
+                <StringItem index="35" value="5845 - LAJE DO MURIAE&#x9;"/>
+                <StringItem index="36" value="5847 - MACAE&#x9;"/>
+                <StringItem index="37" value="0776 - MACUCO&#x9;"/>
+                <StringItem index="38" value="5849 - MAGE&#x9;"/>
+                <StringItem index="39" value="5851 - MANGARATIBA&#x9;"/>
+                <StringItem index="40" value="5853 - MARICA&#x9;"/>
+                <StringItem index="41" value="5855 - MENDES&#x9;"/>
+                <StringItem index="42" value="1116 - MESQUITA&#x9;"/>
+                <StringItem index="43" value="5857 - MIGUEL PEREIRA&#x9;"/>
+                <StringItem index="44" value="5859 - MIRACEMA&#x9;"/>
+                <StringItem index="45" value="5861 - NATIVIDADE&#x9;"/>
+                <StringItem index="46" value="5863 - NILOPOLIS&#x9;"/>
+                <StringItem index="47" value="5865 - NITEROI&#x9;"/>
+                <StringItem index="48" value="5867 - NOVA FRIBURGO&#x9;"/>
+                <StringItem index="49" value="5869 - NOVA IGUACU&#x9;"/>
+                <StringItem index="50" value="5871 - PARACAMBI&#x9;"/>
+                <StringItem index="51" value="5873 - PARAIBA DO SUL&#x9;"/>
+                <StringItem index="52" value="5875 - PARATI&#x9;"/>
+                <StringItem index="53" value="6005 - PATY DO ALFERES&#x9;"/>
+                <StringItem index="54" value="0000 - PELINCA&#x9;"/>
+                <StringItem index="55" value="5877 - PETROPOLIS&#x9;"/>
+                <StringItem index="56" value="0778 - PINHEIRAL&#x9;"/>
+                <StringItem index="57" value="0778 - PINHEIRAL&#x9;"/>
+                <StringItem index="58" value="5879 - PIRAI&#x9;"/>
+                <StringItem index="59" value="5881 - PORCIUNCULA&#x9;"/>
+                <StringItem index="60" value="0780 - PORTO REAL&#x9;"/>
+                <StringItem index="61" value="2923 - QUATIS&#x9;"/>
+                <StringItem index="62" value="2911 - QUEIMADOS&#x9;"/>
+                <StringItem index="63" value="6007 - QUISSAMA&#x9;"/>
+                <StringItem index="64" value="5883 - RESENDE&#x9;"/>
+                <StringItem index="65" value="5885 - RIO BONITO&#x9;"/>
+                <StringItem index="66" value="5887 - RIO CLARO&#x9;"/>
+                <StringItem index="67" value="5889 - RIO DAS FLORES&#x9;"/>
+                <StringItem index="68" value="2921 - RIO DAS OSTRAS&#x9;"/>
+                <StringItem index="69" value="6001 - RIO DE JANEIRO&#x9;"/>
+                <StringItem index="70" value="5891 - SANTA MARIA MADALENA&#x9;"/>
+                <StringItem index="71" value="5893 - SANTO ANTONIO DE PADUA&#x9;"/>
+                <StringItem index="72" value="5895 - SAO FIDELIS&#x9;"/>
+                <StringItem index="73" value="0782 - SAO FRANCISCO DE ITABAPOANA&#x9;"/>
+                <StringItem index="74" value="5897 - SAO GONCALO&#x9;"/>
+                <StringItem index="75" value="5899 - SAO JOAO DA BARRA&#x9;"/>
+                <StringItem index="76" value="5901 - SAO JOAO DE MERITI&#x9;"/>
+                <StringItem index="77" value="0784 - SAO JOSE DE UBA&#x9;"/>
+                <StringItem index="78" value="6009 - SAO JOSE DO VALE DO RIO PRETO&#x9;"/>
+                <StringItem index="79" value="5903 - SAO PEDRO DA ALDEIA&#x9;"/>
+                <StringItem index="80" value="5905 - SAO SEBASTIAO DO ALTO&#x9;"/>
+                <StringItem index="81" value="5907 - SAPUCAIA&#x9;"/>
+                <StringItem index="82" value="5909 - SAQUAREMA&#x9;"/>
+                <StringItem index="83" value="0786 - SEROPEDICA&#x9;"/>
+                <StringItem index="84" value="5911 - SILVA JARDIM&#x9;"/>
+                <StringItem index="85" value="5913 - SUMIDOURO&#x9;"/>
+                <StringItem index="86" value="0788 - TANGUA&#x9;"/>
+                <StringItem index="87" value="5915 - TERESOPOLIS&#x9;"/>
+                <StringItem index="88" value="5917 - TRAJANO DE MORAIS&#x9;"/>
+                <StringItem index="89" value="5919 - TRES RIOS&#x9;"/>
+                <StringItem index="90" value="5921 - VALENCA&#x9;"/>
+                <StringItem index="91" value="2917 - VARRE-SAI&#x9;"/>
+                <StringItem index="92" value="5923 - VASSOURAS&#x9;"/>
+                <StringItem index="93" value="5925 - VOLTA REDONDA"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iEstado">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(2);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cep:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="iCep">
+          <Events>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="iCepFocusLost"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mats: das taxas cadastradas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="iMatriculas">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="mtDel">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Figuras/stop.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mtDelActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="iReter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Quando vazio reter taxas."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Icones/editor_0304_text_backgroundcolor.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Especifica&#xe7;&#xf5;es do Im&#xf3;vel"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="iDescricao">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Icones/webmaster_2531_text_align_justify.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Textos de Mensagem / Observa&#xe7;&#xf5;es"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="iMsg">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(60);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="iObs">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new LimitedTextField(60);"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="[ Op&#xe7;&#xf5;es ]">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="iBtIncluir" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="iBtExcluir" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="iBtCarteira" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbtBaixar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="iBtFotos" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="iBtGravar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="iBtRetornar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="iBtIncluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iBtExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iBtCarteira" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtBaixar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iBtFotos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iBtGravar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="iBtRetornar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="iBtIncluir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Incluir"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtIncluirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iBtExcluir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Inativar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtExcluirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iBtCarteira">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Carteira"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtCarteiraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtBaixar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Baixar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtBaixarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iBtFotos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fotos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtFotosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iBtGravar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gravar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtGravarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="iBtRetornar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Retornar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="iBtRetornarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[772, 314]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[772, 314]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScroll" min="-2" pref="169" max="-2" attributes="1"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jDF" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jDC" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jSG" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jEP" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jCO" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jJU" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jMU" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbDF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbDC" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbSG" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbEP" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbCO" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbJU" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbMU" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jsmDF" alignment="0" pref="418" max="32767" attributes="0"/>
+                          <Component id="jsmDC" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jsmSG" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jsmEP" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jsmCO" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jsmJU" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jsmMU" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                      <Component id="e_btdel" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="e_btupdate" min="-2" pref="170" max="-2" attributes="0"/>
+                      <EmptySpace min="261" pref="261" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScroll" alignment="1" min="-2" pref="253" max="-2" attributes="1"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbMU" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmMU" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jMU" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbJU" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jJU" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmJU" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbCO" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCO" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmCO" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbEP" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jEP" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmEP" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbSG" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSG" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmSG" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jcbDC" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jDC" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jsmDC" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jsmDF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jcbDF" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jDF" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="e_btupdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="e_btdel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScroll">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+            <CompoundBorder>
+              <Border PropertyName="outside" info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="1&#xaa; Via"/>
+              </Border>
+              <Border PropertyName="inside" info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder bevelType="1"/>
+              </Border>
+            </CompoundBorder>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="11" style="0"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jctCampo">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="7c" green="bd" red="fe" type="rgb"/>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="18" style="0"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="592" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="342" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jMU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Multa"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jJU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Juros"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correcao"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jEP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Expediente"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jSG">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seguro"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desconto"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diferenca"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="e_btupdate">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Figuras/ok.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Atualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_btupdateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="e_btdel">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Figuras/stop.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Apagar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_btdelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmDF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbDF">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmDC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbDC">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmSG">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbSG">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmEP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbEP">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmCO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbCO">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmJU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbJU">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jsmMU">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Somar com o Aluguel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jcbMU">
+    </Component>
+  </SubComponents>
+</Form>
